@@ -1,27 +1,50 @@
-# Hi there, I'm [junghak Yoo] 👋
-### 🤖 Robot Support Technician | Bridging Field Operations and AI Robotics
+# 유정학 · Yoo Jeonghak
 
-I am a Robotics Engineer with a unique blend of **hands-on field experience** and expertise in **modern robotic control (ROS2, Imitation Learning)**. Adept at reading technical documentation and writing clear, actionable reports in English. 
+**클라우드 인프라 위에 AI 서비스를 직접 짓는 1인 개발자입니다.**
+AI 에이전트로 구성된 개발 하네스를 운영하며, 기획부터 배포까지 풀스택을 혼자 완결하는 방식으로 일합니다.
 
-My background in physical equipment operation (Landscaping Technician Certification) has instilled in me a strict adherence to **safety protocols** and a practical approach to **hardware/software troubleshooting**. I excel at diagnosing issues in the field and translating them into structured data for engineering teams.
+> 인프라 위의 AI 서비스 — 만드는 과정을 공개로 기록합니다.
 
-**🔥 Current Focus:** 
-- Collecting teleoperation data and implementing Imitation Learning (ACT, Diffusion Policy) using the Hugging Face LeRobot framework.
-- Preparing for Dual-arm robotic manipulation and collaborative control projects (May 2026).
+---
 
-**💡 Why Me for Robot Support?**
-- **Structured Problem Solving:** Proficient in using Jira/Confluence and GitHub Issues to document errors, track maintenance logs, and streamline communication.
-- **Field-Tested Resilience:** Accustomed to operating and maintaining physical machinery in dynamic environments.
-- **Tech-Savvy Communicator:** Strong ability to comprehend complex technical English and write precise bug reports.
+## 지금 만들고 있는 것
 
-<div align="center">
-  <img src="https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <br>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Confluence-172B4D?style=for-the-badge&logo=confluence&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Linux_Terminal-4D4D4D?style=for-the-badge&logo=linux&logoColor=white"/>
-</div>
+**[chaebol-explorer](https://github.com/yoorobo/chaebol-explorer)** — 재벌 지배구조 시각화 + AWS Bedrock AI 분석
+한국 대기업집단의 순환출자·소유지배 괴리(Wedge)를 인터랙티브 그래프로 시각화하고, AWS Bedrock(Amazon Nova)으로 지배구조 리스크를 분석. `React/TS · Lambda · DynamoDB · Bedrock`
+
+**[gwae-state](https://github.com/yoorobo/gwae-state)** — 손동작으로 주역 64괘를 도출·해석하는 웹앱 (GWAE)
+MediaPipe 손동작 입력으로 작괘(作卦)하여 64괘를 해석·공유. 라이브 서비스 운영 중. `정적 JS · MediaPipe · Firebase`
+
+**[FALCON-1](https://github.com/yoorobo/FALCON-1)** — ROS2 로봇 시스템용 AI 에이전트 하네스
+에이전트 기반 개발 방법론을 로보틱스에 적용한 프로젝트. `ROS2`
+
+**[SmartFarm](https://github.com/yoorobo/SmartFarm)** — ESP32-CAM 기반 스마트팜
+펌웨어부터 제어 GUI까지 하드웨어·소프트웨어를 통합한 풀스택 사례. `C++ · Python · ESP32`
+
+---
+
+## 일하는 방식 — AI 에이전트 하네스
+
+역할이 나뉜 AI 에이전트 팀을 하네스로 묶어, 사람 개발팀의 의사결정 구조를 1인 체제로 구현합니다.
+
+- 전략·문서 / 구현·빌드 / 셸 실행·조사 / 검증·게이팅 / 딥리서치 — 각 역할을 분리해 운영
+- **WO(작업지시서)** 로 작업을 내리고, 결정은 **ADR(아키텍처 결정 기록)** 로 남기며, **1/0/2 게이팅**(승인·거부·보류)으로 검증
+- 빠르게 만들고, 기록을 남기고, 다음 결정에 반영하는 루프
+
+---
+
+## 기술 스택
+
+`AWS (Bedrock · Lambda · DynamoDB)` · `Python` · `TypeScript / React` · `생성형 AI / LLM` · `ROS2` · `자동화 · RPA` · `Docker`
+
+---
+
+## 배경
+
+- 정보처리기사
+- Physical AI 과정 수료 (ROS2 로보틱스)
+- 두드림 KDT — 생성형 AI · AWS 클라우드 · 풀스택 · 자동화 실무 (2026)
+
+---
+
+*이 프로필은 진행 중인 작업의 기록입니다. (최종 업데이트: 2026-06-25)*
