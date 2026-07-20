@@ -14,8 +14,8 @@ AI 에이전트로 구성된 개발 하네스를 운영하며, 기획부터 배�
 **[springboot-qna-board](https://github.com/yoorobo/springboot-qna-board)** — Spring Boot 기반 Q&A 게시판 · **In Progress**
 회원·게시판·검색·권한을 밑바닥부터 구현하고 인증을 단계적으로 발전시킨 학습 프로젝트. 인증 발전: 직접 구현 세션 → Spring Security → OAuth2 소셜 로그인(카카오·구글). `Java · Spring Boot · Spring Security · JPA · MySQL`
 
-**KDT 생성형 AI 서비스 연작** — 여행챗봇 → 이메일비서 → FAQ/RAG 챗봇
-시스템 프롬프트 설계·Human-in-the-loop·RAG를 주제별로 실습한 생성형 AI 앱 묶음: [skyweb](https://github.com/yoorobo/skyweb)(여행 상담 챗봇, **Completed**) → [emailbot](https://github.com/yoorobo/emailbot)(AI 이메일 비서, **Completed**) → FAQ/RAG 챗봇(**Prototype**, 준비 중). `Python · FastAPI · Streamlit · React · 생성형 AI / LLM`
+**KDT 생성형 AI 서비스 연작** — 여행챗봇 → 이메일비서 → FAQ/RAG 챗봇 → 업무보고 자동화
+시스템 프롬프트 설계·Human-in-the-loop·RAG를 주제별로 실습한 생성형 AI 앱 묶음: [skyweb](https://github.com/yoorobo/skyweb)(여행 상담 챗봇, **Completed**) → [emailbot](https://github.com/yoorobo/emailbot)(AI 이메일 비서, **Completed**) → FAQ/RAG 챗봇(**Prototype**, 준비 중) → [rpa_excel_email](https://github.com/yoorobo/rpa_excel_email)(업무보고 자동화 앱 — 엑셀 업무일기→GPT 분석→보고서 초안→사람 수정→이메일 발송, Human-in-the-loop 2단 승인, **Completed**). `Python · FastAPI · Streamlit · React · 생성형 AI / LLM · OpenAI API · smtplib`
 
 ---
 
@@ -61,4 +61,4 @@ MediaPipe 손동작 입력으로 작괘(作卦)하여 64괘를 해석·공유. �
 
 ---
 
-*이 프로필은 진행 중인 작업의 기록입니다. (최종 업데이트: 2026-07-15)*
+*이 프로필은 진행 중인 작업의 기록입니다. (최종 업데이트: 2026-07-20)*
